@@ -5,7 +5,7 @@ import joblib
 from sklearn.preprocessing import LabelEncoder
 
 # Load the trained model
-model = joblib.load('random_forest_regressor_model.pkl')
+model = joblib.load('best_model (1).pkl')
 
 # Load the original dataset to fit LabelEncoders
 try:
