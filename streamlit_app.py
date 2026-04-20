@@ -5,7 +5,7 @@ import joblib
 from sklearn.preprocessing import LabelEncoder
 
 # Load the trained model
-model = joblib.load('best_model (1).pkl')
+model = joblib.load('best_model.pkl')
 
 # Load the original dataset to fit LabelEncoders
 try:
